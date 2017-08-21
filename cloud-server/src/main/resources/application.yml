@@ -1,0 +1,12 @@
+server:
+  port: 8888
+  
+spring:
+  application:
+    name: cloud-server
+  cloud:
+    config:
+      server:
+        git:
+          clone-on-start: true 
+          uri: file://D:/GitForCloud/config-yml-new
